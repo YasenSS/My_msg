@@ -1,0 +1,14 @@
+[common]
+port = 8091
+
+[mysql]
+host = "127.0.0.1"
+port = 3306
+user = "my_msg_dev"
+password = "88888"
+db_name = "my_msg"
+
+max_open_conns = 10
+max_idle_conns = 5
+conn_max_lifetime_seconds = 300
+connect_timeout_seconds = 3
